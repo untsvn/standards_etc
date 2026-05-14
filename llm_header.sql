@@ -383,7 +383,29 @@ FROM
 
 ---
 
-# 3. Summary
+# 3. Section Break Comment Blocks
+
+Use a decorated block comment to mark major sections within a script:
+
+```sql
+/* section_name ==============================================
+|||                                                        |||
+|||   Description of section below...                      |||
+|||                                                        |||
+|||                                                        |||
+|||                                                        |||
+|||                                                        |||
+|||                                                        |||
+|||                                                        |||
+|||                                                        |||
+|||                                                        |||
+|||                                                        |||
+============================================================*/
+--
+```
+
+
+# 4. Summary
 
 Use `data_core_01_raw` for raw source-shaped landing data.
 
@@ -399,4 +421,23 @@ Use internal `<entity>_id` fields for identifiers created and controlled by this
 
 This creates a clear separation between source lineage, internal transformation, and curated managed data.
  */
+--
+
+
+
+
+
+/* start======================================================
+|||                                                        |||
+|||   Start of script/file.                                |||
+|||                                                        |||
+|||                                                        |||
+|||                                                        |||
+|||                                                        |||
+|||                                                        |||
+|||                                                        |||
+|||                                                        |||
+|||                                                        |||
+|||                                                        |||
+============================================================*/
 --
